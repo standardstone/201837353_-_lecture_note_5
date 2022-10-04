@@ -27,13 +27,13 @@ Files and directories have a permission assigned differently to owner/group/othe
  -:file, d:directory, r:read , w:write, x:execute
  
  chmod: changes permissions
- ex) chmod 600 some_file
- 6=110=rw- for owner
- 0=000=--- for group
- 0=000=--- for others
- rwx = 111 =7
- r-x = 101 =5
- r-- = 100 =4
+ ex) chmod 600 some_file 
+ 6=110=rw- for owner  
+ 0=000=--- for group 
+ 0=000=--- for others 
+ rwx = 111 =7 
+ r-x = 101 =5 
+ r-- = 100 =4 
  
  # Superuser
  A speruser has all system administation authority.
