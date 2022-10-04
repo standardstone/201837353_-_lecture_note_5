@@ -28,12 +28,15 @@ Files and directories have a permission assigned differently to owner/group/othe
  
  chmod: changes permissions
  ex) chmod 600 some_file 
+ 
+ ```
  6=110=rw- for owner  
  0=000=--- for group 
  0=000=--- for others 
  rwx = 111 =7 
  r-x = 101 =5 
  r-- = 100 =4 
+ ```
  
  # Superuser
  A speruser has all system administation authority.
@@ -43,11 +46,13 @@ Files and directories have a permission assigned differently to owner/group/othe
  "exit" to get out of a superuser session.
  
  # text Editors
-vi,vim command line
+ ```
+vi,vim 
 Emacs
 nano
 gedit
 kwrite
+```
 
 # shell script
 write and run a shell script.
